@@ -1,57 +1,294 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Food Waste Unit 2</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <h1>Waste Watchers</h1>
-        <hr>
-        <!-- Change the image below to one you want to use!-->
-        <img src="https://logoground.com/uploads6/dv6y201932332019-09-264902550Elegant%20Letter%20VW%20WV%20Diamond.jpg" >
-        
-       <div class="counter"> <iframe title='Tons of food lost or wasted' src='https://www.theworldcounts.com/embeds/counters/101?background_color=white&color=black&font_family=%22Helvetica+Neue%22%2C+Arial%2C+sans-serif&font_size=14' style='border: none'></iframe> </div>
-        
-        <h2>Table of Contents</h2>
-         <nav>
-             <ul> 
-            <li> <a href="#environmental_impact"> Food Waste's Environmental Impact</a> </li>
-            <li> <a href="#track_food_inv"> Track Food Inventory </a> </li>
-            <li> <a href="#meal_plan/comp"> Meal Planning / Composting</a></li>
-            <li><a href="#redistributing"> Redistributing Surplus</a></li>
-        </ul>
-        </nav>
-      
-        <br>
-        <h3 id="environmental_impact"> Food Waste's Environmental Impact:</h3>
-        <ul>
-            <li>45 trillion gallons of water. (Enough water to fill 70 million olympic sized swimming pools) </li> 
-            <li>350 million barrels of oil. (The same amount of water as the United States currently has in its reserves)</li>
-            <li>3.4 million acres of land.(About the size of the United States, India, and Colombia combined) </li>
-            
-            <li>170 million metric tons of GHG in the decomposition of food alone.
-            (Which is roughly equivalent to 20 billion gallons of gasoline)</li>
-            
-            <li>1.3 billion tons of food. 
-            (Enough food to feed all  the hungry and malnoursihed people in the world) </li>
-            
-        </ul>
-        
-        <div class="section">
-            <h2 id="track_food_inv">Track Food Inventory</h2>
+
+<head>
+  <title>Food Waste Unit 2</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Diphylleia">
+</head>
+
+<body>
+  <div id="ScreenTop">
+    <div>
+      <img src="https://logoground.com/uploads6/dv6y201932332019-09-264902550Elegant%20Letter%20VW%20WV%20Diamond.jpg"
+        alt="Waste Watchers Company Logo." class="WWLogo">
     </div>
-        <!-- PUT INFO AND IMAGES FOR SECTION 1 BELOW HERE   -->
-        <p> One way to lower food waste is to collect food from restaurants or supermarkets that throw stuff away after each day. This is done by companies such as City Harvest or Dreaming Out Loud. More companies can be found <a href="https://foodtank.com/news/2020/12/organizations-diverting-food-waste-to-provide-meals-for-people-in-need/"> here.</a> </p>
-        
-        <div class="section">
-            <h2 id="meal_plan/comp"> Meal Plannning / Composting</h2>
+
+    <div>
+      <h1>Waste Watchers</h1>
+    </div>
+
+    <div>
+      <img src="https://logoground.com/uploads6/dv6y201932332019-09-264902550Elegant%20Letter%20VW%20WV%20Diamond.jpg"
+        alt="Waste Watchers Company Logo." class="WWLogo">
+    </div>
+  </div>
+
+  <div class="topnav">
+    <div class="dropdown">
+      <a href="#environmental_impact" class="navtool">Impact</a>
+      <ul class="dropdown-menu">
+        <li><a href="#food">Food</a></li>
+        <li><a href="#waterImage">Water</a></li>
+        <li><a href="#oil">Oil</a></li>
+        <li><a href="#landImage">Land</a></li>
+        <li><a href="#GHG">GHG Emissions</a></li>
+      </ul>
+    </div>
+
+    <div class="dropdown">
+      <a href="#poss_sol" class="navtool"> What Can You Do? </a>
+      <ul class="dropdown-menu">
+        <li> <a href="#track_food_inv"> Track Food Inventory </a> </li>
+        <li> <a href="#meal_plan"> Meal Planning</a></li>
+        <li> <a href="#comp"> Composting</a></li>
+        <li><a href="#redistributing"> Redistributing Surplus</a></li>
+      </ul>
+    </div>
+
+    <div class="dropdown">
+      <a href="#contact" class="navtool"> Contact Us </a>
+      <ul class="dropdown-menu">
+        <li> <a href="#email"> By E-mail </a> </li>
+        <li> <a href="#phone"> By Phone </a></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <hr>
+
+  <!-- Change the image below to one you want to use!-->
+
+  <div class="counter">
+    <iframe title='Tons of food lost or wasted'
+      src='https://www.theworldcounts.com/embeds/counters/101?background_color=white&color=black&font_family=%22Helvetica+Neue%22%2C+Arial%2C+sans-serif&font_size=14'
+      style='border: none' alt="Counter of all food wasted this year. Created by The World Counts.">
+    </iframe>
+  </div>
+
+  <div class="videoContainer">
+    <div class="video">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/ishA6kry8nc" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""
+        alt="Basic Informational Video about Food Waste by Climate Science"> Your browser doesn't support this kind of
+        video </iframe>
+    </div>
+
+    <div class="video">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/6RlxySFrkIM" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""
+        alt="Basic Informational Video about Food Waste by Vox"> Your browser doesn't support this kind of video
+      </iframe>
+    </div>
+  </div>
+
+  <h2 id="environmental_impact"> Food Waste's Impact:</h2>
+
+  <div class="flex-container">
+
+    <ul>
+      <div class="row">
+        <div class="column foodText">
+          <li id="food"> <u>1.3 billion tons of food are wasted each year. </u> <br> <br>
+            <ul>
+              <li>That's enough food to feed all the hungry people in the world. </li><br>
+              <li>30% - 40% of all food in the United States is thrown out. </li><br>
+              <li>In the United States alone, $161 Billion of food are thrown out. </li>
+            </ul>
+          </li>
         </div>
-           <!-- PUT INFO AND IMAGES FOR SECTION 2 BELOW HERE -->
-        <p> Another way is to plan out what you are going to buy each week using <a href="https://www.myplate.gov/tip-sheet/meal-planning">MyPlate</a> to make healthy meals. By only buying what you need, one saves on wasted food. One can also learn to compost through websites like <a href="https://www.epa.gov/recycle/composting-home">this one.</a> This way any food that isn't eaten from banana peels to egg shells can be reused to help lower food waste</p>
-        <div class="section">
-            <h2 id="redistributing"> Redistributing Surplus </h2>
+
+        <div class="column">
+          <img id="foodImage"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNHpi-bYICcDcxH0ZxQOLn7gAG88uThx5Mzw&usqp=CAU"
+            alt="Food Rotting in a Landfill.">
         </div>
-          <!-- PUT INFO AND IMAGES FOR SECTION 3 UNDER HERE  -->
-        <p>This one is more for restaurants which can use any one of many apps which can be found <a href="https://www.forbes.com/advisor/business/software/restaurant-inventory-management-software/">here</a></p>
-    </body>
+      </div>
+
+      <div class="row">
+        <div class="column"> <img id="waterImage"
+            src="https://media.istockphoto.com/id/140450017/photo/a-blue-water-hose-leaking-water-from-a-hole.jpg?s=612x612&w=0&k=20&c=n9TYaqOAtFU0YOsNUkKJR1bmzaTut6fYavG4vRYKx3Y="
+            alt="Blue Hose leaking water.">
+        </div>
+
+        <div class="column waterText">
+          <li id="water"> <u> 45 trillion gallons of water are wasted each year. </u> <br> <br>
+            <ul>
+              <li>That's enough water to fill 70 million olympic sized swimming pools. </li> <br>
+              <li>Or enough water to fill up over 160,000 Empire State Buildings. </li> <br>
+              <li>In other words, a quarter of the Pacific Ocean is wasted growing food that is thrown away.</li>
+            </ul>
+          </li>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column oilText">
+          <li id="oil"> <u>350 million barrels of oil are wasted each year.</u> <br> <br>
+            <ul>
+              <li>That's the same amount of oil as the United States currently has in its reserves. </li> <br>
+              <li>This is enough energy to fuel a traditional lightbulb for 27 billion years.</li>
+            </ul>
+          </li>
+        </div>
+
+        <div class="column">
+          <img id="oilImage"
+            src="https://media.istockphoto.com/id/1280963997/photo/3d-illustration-a-rows-of-classic-metal-oil-barrels-drum.jpg?s=1024x1024&w=is&k=20&c=6GO-fc_nRO0E1bmlhQC8tuwW7JTWr2ypHrsdGTV7ryM="
+            alt="Blue barrels of Oil stored on shelves.">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column">
+          <img id="landImage"
+            src="https://media.istockphoto.com/id/1372495059/photo/land-for-sale-sign-in-green-grass-field-for-housing-development-and-construction.jpg?s=612x612&w=is&k=20&c=3s93C36t_7nix1pOYYNV3wxqFP0QcJSxZhXGulr13vI="
+            alt="Sign stating 'Land For Sale' outside a green plot of land.">
+        </div>
+
+        <div class="column landText">
+          <li id="land"> <u>3.4 million acres of land are used up growing food no one is going to eat.</u><br><br>
+            <ul>
+              <li>That's about the size of the United States, India, and Colombia combined.</li> <br>
+              <li>You could fit around 2.6 million football fields in the land used to grow wasted food. </li><br>
+              <li>You could fit 680,000 people on this land, which would be a major step in combating overpopulation.
+              </li>
+            </ul>
+          </li>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column GHGText">
+          <li id="GHG"><u>170 million metric tons of GHG are released in the decomposition of food alone. </u> <br>
+            <br>
+            <ul>
+              <li>This accounts for around 6% of all GHG emissions in the world and about a quarter of GHG emissions
+                from food </li>
+              <li>That is roughly equivalent to 20 billion gallons of gasoline. </li> <br>
+              <li>That's enough fuel to drive for 436 billion miles or enough gas to drive around the circumference of
+                the Earth 17 million times.</li>
+            </ul>
+          </li>
+        </div>
+
+        <div class="column">
+          <img id="GHGImage"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2lwTg5XsKt7cPfrLUdUtg4gIYnHy0VbT3Bw&usqp=CAU"
+            alt="Factory spewing out smoke into the environment.">
+        </div>
+      </div>
+    </ul>
+  </div>
+
+  <h2 id="poss_sol">What Can You Do?</h2>
+  <div class="section">
+    <h3 id="track_food_inv">Track Food Inventory</h3>
+  </div>
+  <!-- PUT INFO AND IMAGES FOR SECTION 1 BELOW HERE   -->
+  <div class="trackContainer">
+    <div class="logoTrack"></div>
+    <div class="logoTrack">
+      <img id="city_harvest"
+        src="https://images.squarespace-cdn.com/content/v1/534f6c15e4b095a1b0b2291e/1457650373882-9PFWORWRZ8MPOUT2SC1P/image-asset.png"
+        alt="City Harvest Logo">
+      <div class="logoTrack"></div>
+    </div>
+    <div class="logoTrack">
+      <img id="dreaming_out_loud"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8w46J9rrKqs1eYVeHcC7jLXCbSZP3cy9ImQ&usqp=CAU"
+        alt="Dreaming Out Loud Logo">
+
+    </div>
+    <div class="logoTrack"></div>
+  </div>
+
+  <p> One way to lower food waste is to collect food from restaurants or supermarkets that throw stuff away after each
+    day. This is done by companies such as City Harvest or Dreaming Out Loud. More companies can be found <a
+      href="https://foodtank.com/news/2020/12/organizations-diverting-food-waste-to-provide-meals-for-people-in-need/">
+      here.</a> </p>
+
+  <div class="section">
+    <h3 id="meal_plan"> Meal Plannning</h3>
+  </div>
+  <!-- PUT INFO AND IMAGES FOR SECTION 2 BELOW HERE -->
+  <img id="myplate"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZxR2tnAXRK2lTp5c1HfxNCtz5LtfodNSp_w&usqp=CAU"
+    alt="My Plate diagram showing what people should eat in each meal.">
+
+  <p> Another way is to plan out what you are going to buy each week using <a
+      href="https://www.myplate.gov/tip-sheet/meal-planning">MyPlate</a> to make healthy meals. By only buying what
+    you
+    need, one saves on wasted food. </p>
+
+  <div class="section">
+    <h3 id="comp"> Composting </h3>
+  </div>
+  <img id="comp_pile" src="https://assets.learningwithexperts.com/c87beb4a-c849-4011-ba54-2cc4beb90bf0/765x431"
+    alt="Compost Pile">
+  <p>One can also learn to compost through websites like <a href="https://www.epa.gov/recycle/composting-home">this
+      one.</a> This way any food that isn't eaten from banana
+    peels to egg shells can be reused to help lower food waste</p>
+
+  <div class="section">
+    <h3 id="redistributing"> Redistributing Surplus </h3>
+  </div>
+
+  <div class="surplusContainer">
+    <div class="logoSurplus"></div>
+    <div class="logoSurplus">
+      <img id="revel"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJe7mricnc8F-fJR5ID4Dpew21GfJy97ZJuw&usqp=CAU"
+        alt="Revel Systems Logo">
+      <div class="logoSurplus"></div>
+    </div>
+    <div class="logoSurplus">
+      <img id="r365"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJJta5KtV7kTb8Z832kQ86oFtR2xOLmEHUsg&usqp=CAU"
+        alt="Restaurants 365 logo">
+
+    </div>
+    <div class="logoSurplus"></div>
+  </div>
+  <!-- PUT INFO AND IMAGES FOR SECTION 3 UNDER HERE  -->
+  <p>This one is more for restaurants which can use any one of many apps such as Revel Systems or Restaurant365 which
+    can be found <a
+      href="https://www.forbes.com/advisor/business/software/restaurant-inventory-management-software/">here</a></p>
+
+  <h2 id="contact"> Contact Us</h2>
+  <p> Please input your information below and at our earliest possible convience, we'll message you back</p>
+  <div class="formContainer">
+    <div class="forms">
+      <h4 id="email">By Email</h4>
+      <form action="/action_page.php">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="email">Email Address:</label>
+        <input type="text" id="email" name="email"><br><br>
+        <label for="suggestions">Suggestions:</label>
+        <input type="text" id="suggestions" name="suggestions"><br><br>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+
+    <div class="forms">
+      <h4 id="phone">By Phone</h4>
+      <form action="/action_page.php">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="phonenum">Phone Number:</label>
+        <input type="text" id="phonenum" name="phonenum"><br><br>
+        <label for="suggestions">Suggestions:</label>
+        <input type="text" id="suggestions" name="suggestions"><br><br>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</body>
+
 </html>

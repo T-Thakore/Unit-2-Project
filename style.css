@@ -1,8 +1,15 @@
 /* The code on lines 2-4 centers the text of all h1's on the page.*/
-h1{
-    color:#e8027d;
-    text-align:center;
+body{
+  background-color: #948989;
 }
+
+h1 {
+  color: #F79327;
+  text-align: center;
+  font-size: 90px;
+  font-family: "Brush Script MT", cursive;
+}
+
 /*The code on lines 6-11 centers all images on the page and gives them a width of 400px.*/
 
 img{
@@ -10,51 +17,325 @@ img{
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
-  width:600px;
+  width:400px;
 }
 
-iframe{
-margin-bottom:0px;
+iframe {
+  margin-bottom: 0px;
 }
 
-.counter{
- width:300px;
- margin: 0 auto;
+.counter {
+  width: 300px;
+  margin: 0 auto;
 }
 
-h3{
-margin-left:10px;
+h3 {
+  margin-left: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  color: navy;
 }
 
-ul{
-margin-left:10px;
-margin-bottom:40px;
+ul {
+  margin-left: 10px;
+  margin-bottom: 20px;
 }
 
-li{
-margin-bottom:15px;
+li {
+  margin-bottom: 15px;
 }
 
 /* The code on lines 14-16 centers the text of all h2's on the page*/
-h2{
-  margin-left: 5px;  
+h4 {
+  margin-left: 5px;
+  font-size: larger;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-p{
-margin-left:10px;
+p {
+  margin-left: 10px;
+  color: navy;
+  font-size: 20px;
 }
 
 
 
 /* The code on lines 19-22 aligns all the sections horizontally on the bottom*/
-.sectionsContainer{
-    display:flex;
-    justify-content:space-between;
+.sectionsContainer {
+  display: flex;
+  justify-content: space-between;
 }
 
 /* The code on lines 25-28 gives  a solid black border to section and puts space between them (the margin) */
-.section{
-    border: 5px black solid;
-    margin:5px;
-    text-align:center;
+.section {
+  border: 5px #F79327 solid;
+  margin: 5px;
+  text-align: center;
+}
+
+/* The code on lines 19-22 aligns all the sections horizontally on the bottom*/
+.trackContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.surplusContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* The code on lines 25-28 gives  a solid black border to section and puts space between them (the margin) */
+
+#city_harvest {
+  width: 150px;
+}
+
+#dreaming_out_loud {
+  width: 150px;
+}
+
+#myplate {
+  width: 200px;
+}
+
+#comp_pile {
+  width: 200px;
+}
+
+#revel {
+  width: 200px;
+}
+
+#r365 {
+  width: 200px;
+}
+
+#foodImage {
+  width: 300px;
+  padding-bottom: 5px;
+  padding-top: 20px;
+}
+
+.foodText{
+  padding-top: 30px;
+  padding-bottom: 0px;
+  color: navy;
+}
+
+#waterImage {
+  width: 300px;
+  padding-bottom:20px;
+  padding-top:35px;
+}
+
+.waterText{
+  padding-top:20px;
+  padding-bottom:0px;
+  color: navy;
+}
+
+
+#oilImage {
+  padding-bottom:20px;
+  padding-top:30px;
+  width: 300px;
+}
+
+.oilText{
+  padding-top: 45px;
+  padding-bottom: 15px;
+  color: navy;
+}
+
+#landImage {
+  width: 300px;
+  padding-bottom:20px;
+  padding-top:60px;
+}
+
+.landText{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: navy;
+}
+
+#GHGImage {
+  width: 300px;
+  padding-bottom:20px;
+  padding-top:50px;
+}
+
+.GHGText{
+  padding-top: 40px;
+  padding-bottom: 20px;
+  color: navy;
+}
+
+.row{
+  display:flex;
+  border-color:#F79327;
+  border-style: dashed;
+  border-width: 5px;
+  padding-top: 5px;
+  margin-bottom: 15px;
+  padding-left:20px;
+  list-style-type: none;
+}
+
+.column{
+  float:left;
+  width: 50%;
+  font-size: 20px;
+}
+
+.row::after{
+  content: "";
+  display: table;
+  clear:both;
+}
+
+.videoContainer{
+  display:flex;
+  justify-content: center;
+}
+
+.video{
+  align-items: center;
+  margin: 15px;
+}
+
+.topnav{
+  display:flex;
+  padding: 5px;
+  justify-content: space-evenly;
+  font-size:18px;
+  font-family: Diphylleia, cursive;
+}
+
+.navtool{
+  margin: 5px;
+  text-align: center;
+}
+
+.topnav a{
+  text-decoration: none;
+  color:#d13375;
+  font-weight: 900;
+  font-size: 21px;
+}
+
+.topnav a:hover {
+  background-color: #F79327;
+  border-style: solid;
+  border-color: #F79327;
+  border-width: 5px;
+  color: #fff;
+}
+
+.dropdown {
+  color: #fff;
+  cursor: pointer;
+  height: 50px;
+  line-height: 50px;
+  position: relative;
+  width: 200px;
+  text-align: center;
+  text-decoration: none;
+  z-index: 1;
+  transform: perspective(1000px);
+  margin: 5px;
+}
+
+.dropdown-menu {
+  background-color: #fff;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 0;
+  opacity: 0;
+  text-align: center;
+  top: 0;
+  visibility: hidden;
+  z-index: -99999;
+}
+
+.dropdown-menu li:first-child {
+  cursor: default;
+}
+
+.dropdown-menu a {
+  width: 100%;
+  text-decoration: none;
+}
+
+.dropdown-menu a:hover {
+  background-color: #F79327;
+  border-style: solid;
+  border-color: #F79327;
+  border-width: 5px;
+  color: #fff;
+}
+
+.dropdown:hover .dropdown-menu {
+  background: white;
+  opacity: 1;
+  visibility: visible;
+  top: 100%;
+  width: 100%;
+}
+
+.formContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+ 
+.forms {
+  border: 5px #F79327 solid;
+  margin: 5px;
+  text-align: center;
+  color:navy;
+}
+
+
+#ScreenTop{
+  display:flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.WWLogo {
+  margin-top:30px;
+  width:200px;
+  border: 5px #F79327 solid;
+  margin: 5px;
+  text-align: center;
+}
+
+h2{
+  color:navy;
+  font-size: 35px;
+  padding-top: 50px;
+}
+
+a:link {
+  color: #B70404;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #B70404;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+form{
+  font-size:larger;
 }
